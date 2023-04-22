@@ -11,3 +11,58 @@
 ul {
   list-style: none;
 }
+
+.card {
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 20rem;
+  height: 35rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #575757;
+  border-radius: 15px
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 12rem;
+  width: auto;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.repo {
+  white-space: nowrap;
+  text-align: left;
+  width: 15rem
+}
+
+.repoList {
+  overflow: scroll;
+  height: 13rem;
+  border: grey solid 1px;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.repoList::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.repoList::-webkit-scrollbar-corner {
+  display: none;
+}
+
+.repoList::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  border: grey solid 1px;
+}
